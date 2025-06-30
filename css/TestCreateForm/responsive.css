@@ -1,0 +1,50 @@
+
+@media (max-width: 1400px) {
+
+}
+@media (max-width: 1200px) {
+
+
+}
+
+
+@media (max-width: 992px) {
+    .navbar__items{
+        display: none;
+    }
+    .navbar__hamburgerButton{
+        display: flex;
+    }
+    .navbar__blackBackground{
+        display: block;
+    }
+    .navbar__itemsMobile{
+        display: flex;
+    }
+
+    .test{max-width: 95%;}
+
+
+}
+
+@media (max-width: 768px) {
+
+
+}
+
+@media (max-width: 576px) {
+    .header__items{
+        padding: 2rem 0;
+    }
+
+}
+
+@media (max-width: 400px) {
+
+}
+
+
+@media (min-width: 1400px) {
+
+}
+

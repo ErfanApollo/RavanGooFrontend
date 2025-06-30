@@ -42,7 +42,15 @@
     .educationLeft__item {
         width: 73.6rem;
     }
-
+    .footerRight__content {
+        margin: 0 auto;
+    }
+    .testList {
+        width: auto;
+    }
+    .educationList{
+        width: auto;
+    }
 }
 @media (max-width: 1200px) {
 
@@ -62,7 +70,7 @@
         align-items: center;
     }
     .footerRight__text {
-        width: 23rem;
+        width: fit-content;
     }
 
     .footerLeft__icons {
@@ -81,13 +89,10 @@
     }
     .footerRight__text{margin: 1.5rem auto;}
 
-    .footerRight__images{
 
+    .footerRight__images {
         margin: 0 auto;
-
     }
-
-
 
 }
 
@@ -145,6 +150,9 @@
         width: 46.6rem;
         height: 55rem;
     }
+    .login__field, .register__field {
+        width: 71.7rem;
+    }
 
 }
 
@@ -153,6 +161,10 @@
         width: 70%;
     }
 
+
+    .login__title, .register__title {
+        font-size: 5.5rem;
+    }
     .education__header{flex-direction:column-reverse;gap: 1rem;align-items: center;}
 
     .education__content {
@@ -194,6 +206,10 @@
         height: 44rem;
     }
 
+    .login__button{
+        margin: 0 auto 2rem auto;
+    }
+
 }
 
 @media (max-width: 576px) {
@@ -222,16 +238,30 @@
         width: 85%;
     }
     .educationLeft__item{width: 29rem;height: 48rem;}
-
-
+    .testList__title {
+        font-size: 3.2rem;
+    }
+    .educationList__title {
+        font-size: 4rem;
+    }
 
 }
 
 @media (max-width: 400px) {
+    .testListItem__title{font-size: 1.9rem;}
+
+    .testListItem__description{font-size: 1.6rem;}
+
+    .testListItem__footerImage{width: 5.5rem;height: 5.5rem;}
+
+    .educationRight--mini .educationRight__item {
+        width: 28.6rem;
+        height: 33.4rem;
+    }
+
 
 
 }
-
 
 @media (min-width: 1400px) {
 

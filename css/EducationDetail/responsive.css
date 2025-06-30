@@ -1,0 +1,63 @@
+
+@media (max-width: 1400px) {
+
+}
+@media (max-width: 1200px) {
+    .educationDetail__description{
+        padding: 0 4rem;
+    }
+
+}
+
+
+@media (max-width: 992px) {
+    .navbar__items{
+        display: none;
+    }
+    .navbar__hamburgerButton{
+        display: flex;
+    }
+    .navbar__blackBackground{
+        display: block;
+    }
+    .navbar__itemsMobile{
+        display: flex;
+    }
+    .educationDetail__header {
+        display: flex
+    ;
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem;
+    }
+
+
+}
+
+@media (max-width: 768px) {
+
+
+}
+
+@media (max-width: 576px) {
+    .header__items{
+        padding: 2rem 0;
+    }
+
+}
+
+@media (max-width: 400px) {
+    .educationDetail__description {
+        padding: 0 0.5rem;
+    }
+    .educationDetail__title {
+        font-size: 2rem;
+        text-align: center;
+    }
+}
+
+
+@media (min-width: 1400px) {
+
+}
+
