@@ -163,7 +163,7 @@ Alert
     display: none;
     font-size: 2.8rem;
     background: rgb(92, 92, 92);
-    padding: 1.2rem 1.3rem;
+    padding: 1rem.8rem;
     border-radius: 1rem;
     color: var(--white);
     align-items: center;
@@ -762,7 +762,7 @@ Alert
 
 .educationList__title{width: fit-content;margin: 0 auto;color: var(--darkgreen-text);font-size: 4.5rem;}
 
-.educationList__items{display: flex;flex-wrap: wrap;margin-top: 3.5rem;row-gap: 2.5rem;}
+.educationList__items{display: flex;flex-wrap: wrap;margin-top: 3.5rem;row-gap: 2.5rem;column-gap: 2rem;}
 
 
 .educationRight--mini{

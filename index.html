@@ -7,7 +7,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="icon" type="image/png" href="img/favicon.png">
     <title>روان گوو</title>
-<!--    <link rel="stylesheet" href="lib/font awesome/css/font-awsome-4.7.0.min.css">-->
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+/>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/grid.css">
     <link rel="stylesheet" href="css/fonts.css">
@@ -44,23 +47,24 @@
                 <nav class="navbar">
                     <ul class="navbar__items">
                         <li class="navbar__item">
-                            <a href="" class="navbar__link navbar__link--active">خانه</a>
+                            <a href="/index.html" class="navbar__link navbar__link--active">خانه</a>
                         </li>
                         <li class="navbar__item">
-                            <a href="" class="navbar__link">ورود / ثبت نام</a>
+                            <a href="/register.html" class="navbar__link">ثبت نام</a>
                         </li>
                         <li class="navbar__item">
-                            <a href="" class="navbar__link">آموزش</a>
+                            <a href="/login.html" class="navbar__link">ورود</a>
                         </li>
                         <li class="navbar__item">
-                            <a href="" class="navbar__link">تست ها</a>
+                            <a href="/EducationList.html" class="navbar__link">آموزش</a>
                         </li>
                         <li class="navbar__item">
-                            <a href="" class="navbar__link">طراحی تست</a>
+                            <a href="/TestList.html" class="navbar__link">تست ها</a>
                         </li>
+
                         <li class="navbar__item">
                             <a href="" class="navbar__link navbar__link--alert">خروج از حساب کاربری</a>
-                            <div class="navbar__itemAlert navbar__itemAlert--open">
+                            <div class="navbar__itemAlert">
                                 <p class="navbar__itemAlertText">آیا میخواهید از سایت خارج شوید</p>
                                 <button type="button" class="navbar__itemAlertClose">خیر</button>
                                 <button type="button" class="navbar__itemAlertExit">بله</button>
@@ -73,19 +77,19 @@
                     <div class="navbar__blackBackground"></div>
                     <ul class="navbar__itemsMobile">
                         <li class="navbar__itemMobile navbar__itemMobile--active">
-                            <a href="" class="navbar__linkMobile navbar__linkMobile--active">خانه</a>
+                            <a href="/index.html" class="navbar__linkMobile navbar__linkMobile--active">خانه</a>
                         </li>
                         <li class="navbar__itemMobile">
-                            <a href="" class="navbar__linkMobile">ورود / ثبت نام</a>
+                            <a href="/register.html" class="navbar__linkMobile">ثبت نام</a>
+                        </li>
+                        <li class="navbar__itemMobile">
+                            <a href="/login.html" class="navbar__linkMobile">ورود</a>
                         </li>
                         <li class="navbar__itemMobile">
                             <a href="" class="navbar__linkMobile">آموزش</a>
                         </li>
                         <li class="navbar__itemMobile">
                             <a href="" class="navbar__linkMobile">تست ها</a>
-                        </li>
-                        <li class="navbar__itemMobile">
-                            <a href="" class="navbar__linkMobile">طراحی تست</a>
                         </li>
                         <li class="navbar__itemMobile">
                             <a href="" class="navbar__linkMobile">درباره ی ما</a>
@@ -107,8 +111,8 @@
                     اینجا مکانی امن برای کشف لایه های پنهان ذهن , شناخت عمیق تر خود و گام برداشتن به سوی زندگی اگاهانه تر است.
                 </p>
                 <div class="mainHeader__buttons">
-                    <a href="" class="mainHeader__button">تست های دیگر</a>
-                    <a href="" class="mainHeader__button mainHeader__button--red">شروع تست های شخصیت</a>
+                    <a href="/TestList.html" class="mainHeader__button">تست های دیگر</a>
+                    <a href="/Test.html" class="mainHeader__button mainHeader__button--red">شروع تست های شخصیت</a>
                 </div>
             </div>
         </div>
@@ -129,13 +133,13 @@
                             <img src="img/test-icon3.png" alt="عکس آزمون اضطراب بِک" class="testItem__image">
                             <h6 class="testItem__title">آزمون اضطراب بِک</h6>
                             <p class="testItem__paragraph">۲۱ سوال برای سنجش شدت علائم اضطراب (لرزش، تپش قلب، ترس غیرمنطقی).</p>
-                            <a href="" class="testItem__link">انجام تست</a>
+                            <a href="/Test.html" class="testItem__link">انجام تست</a>
                         </article>
                         <article class="testItem">
                             <img src="img/test-icon2.png" alt="عکس آزمون شخصیت" class="testItem__image">
                             <h6 class="testItem__title">آزمون شخصیت</h6>
                             <p class="testItem__paragraph">مهارتهای مدیریت هیجان، همدلی و خودآگاهی را ارزیابی میکند.</p>
-                            <a href="" class="testItem__link">انجام تست</a>
+                            <a href="/Test.html" class="testItem__link">انجام تست</a>
                         </article>
                         <article class="testItem">
                             <img src="img/test-icon1.png" alt="عکس آزمون هوش هیجانی" class="testItem__image">
@@ -206,7 +210,9 @@
                 </div>
             </section>
         </div>
-
+        <div class="chatBox">
+            <button class="chatBox__btn"><i class="fas fa-user-md-chat"></i></button>
+        </div>
     </main>
     <footer class="footer">
         <div class="container">
@@ -251,7 +257,7 @@
 
         </div>
     </footer>
-  <script src="lib/font awesome/js/all.js"></script>
+    
     <script src="js/script.js"></script>
 </body>
 </html>
