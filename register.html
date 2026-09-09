@@ -7,7 +7,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="icon" type="image/png" href="img/favicon.png">
     <title>ثبت نام</title>
-    <link rel="stylesheet" href="lib/font awesome/css/font-awsome-4.7.0.min.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    />
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/grid.css">
     <link rel="stylesheet" href="css/fonts.css">
@@ -40,52 +43,58 @@
     </div>
     <div class="container">
         <div class="header__items">
-            <nav class="navbar">
-                <ul class="navbar__items">
-                    <li class="navbar__item">
-                        <a href="" class="navbar__link navbar__link--active">خانه</a>
-                    </li>
-                    <li class="navbar__item">
-                        <a href="" class="navbar__link">ورود / ثبت نام</a>
-                    </li>
-                    <li class="navbar__item">
-                        <a href="" class="navbar__link">آموزش</a>
-                    </li>
-                    <li class="navbar__item">
-                        <a href="" class="navbar__link">تست ها</a>
-                    </li>
-                    <li class="navbar__item">
-                        <a href="" class="navbar__link">طراحی تست</a>
-                    </li>
-                    <li class="navbar__item">
-                        <a href="" class="navbar__link">درباره ی ما</a>
-                    </li>
-                </ul>
-                <button type="button" class="navbar__hamburgerButton">
-                    <i class="fa fa-bars"></i>
-                </button>
-                <div class="navbar__blackBackground"></div>
-                <ul class="navbar__itemsMobile">
-                    <li class="navbar__itemMobile navbar__itemMobile--active">
-                        <a href="" class="navbar__linkMobile navbar__linkMobile--active">خانه</a>
-                    </li>
-                    <li class="navbar__itemMobile">
-                        <a href="" class="navbar__linkMobile">ورود / ثبت نام</a>
-                    </li>
-                    <li class="navbar__itemMobile">
-                        <a href="" class="navbar__linkMobile">آموزش</a>
-                    </li>
-                    <li class="navbar__itemMobile">
-                        <a href="" class="navbar__linkMobile">تست ها</a>
-                    </li>
-                    <li class="navbar__itemMobile">
-                        <a href="" class="navbar__linkMobile">طراحی تست</a>
-                    </li>
-                    <li class="navbar__itemMobile">
-                        <a href="" class="navbar__linkMobile">درباره ی ما</a>
-                    </li>
-                </ul>
-            </nav>
+                <nav class="navbar">
+                    <ul class="navbar__items">
+                        <li class="navbar__item">
+                            <a href="/index.html" class="navbar__link">خانه</a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="/register.html" class="navbar__link  navbar__link--active">ثبت نام</a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="/login.html" class="navbar__link">ورود</a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="/EducationList.html" class="navbar__link">آموزش</a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="/TestList.html" class="navbar__link">تست ها</a>
+                        </li>
+
+                        <li class="navbar__item">
+                            <a href="" class="navbar__link navbar__link--alert">خروج از حساب کاربری</a>
+                            <div class="navbar__itemAlert">
+                                <p class="navbar__itemAlertText">آیا میخواهید از سایت خارج شوید</p>
+                                <button type="button" class="navbar__itemAlertClose">خیر</button>
+                                <button type="button" class="navbar__itemAlertExit">بله</button>
+                            </div>
+                        </li>
+                    </ul>
+                    <button type="button" class="navbar__hamburgerButton">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                    <div class="navbar__blackBackground"></div>
+                    <ul class="navbar__itemsMobile">
+                        <li class="navbar__itemMobile navbar__itemMobile--active">
+                            <a href="/index.html" class="navbar__linkMobile navbar__linkMobile--active">خانه</a>
+                        </li>
+                        <li class="navbar__itemMobile">
+                            <a href="/register.html" class="navbar__linkMobile">ثبت نام</a>
+                        </li>
+                        <li class="navbar__itemMobile">
+                            <a href="/login.html" class="navbar__linkMobile">ورود</a>
+                        </li>
+                        <li class="navbar__itemMobile">
+                            <a href="" class="navbar__linkMobile">آموزش</a>
+                        </li>
+                        <li class="navbar__itemMobile">
+                            <a href="" class="navbar__linkMobile">تست ها</a>
+                        </li>
+                        <li class="navbar__itemMobile">
+                            <a href="" class="navbar__linkMobile">درباره ی ما</a>
+                        </li>
+                    </ul>
+                </nav>
 
             <div class="header__logo">
                 <img src="img/logo.jpg" class="header__logo-image"/>
